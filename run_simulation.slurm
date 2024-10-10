@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name= job737tutCade # Job name
+#SBATCH --job-name=job737tutCade # Job name
 #SBATCH --output=output_%j.log # Output log file (%j will be replaced by the job ID)
 #SBATCH --error=error_%j.log # Error log file (%j will be replaced by the job ID)
 #SBATCH --ntasks=1 # Number of tasks (processes)
